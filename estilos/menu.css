@@ -1,0 +1,12 @@
+.menu-vertical {
+    display: block;
+    width: 59px;
+    height: 100%;
+    background: #3D3D3D;
+}
+
+.linha-horizontal {
+    width: 100%;
+    height: 1px;
+    background: #DADADA;
+}

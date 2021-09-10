@@ -1,0 +1,57 @@
+body {background: #F6F6F6;}
+
+.sem-pointer {
+    cursor: none;
+}
+
+.template-principal {
+    display: grid;
+    grid-template-columns: 59px 30px auto 30px;
+    grid-template-rows: 53px 1px auto;
+    grid-template-areas:
+        "item_menu-vertical_principal . . ."
+        "item_menu-vertical_principal item_linha-horizontal_principal item_linha-horizontal_principal item_linha-horizontal_principal"
+        "item_menu-vertical_principal . item_conteudo_principal ."
+    ;
+    height: 100vh;
+}
+
+.item_menu-vertical_principal {
+    grid-area: item_menu-vertical_principal;
+}
+
+.item_linha-horizontal_principal {
+    grid-area: item_linha-horizontal_principal;
+}
+
+.item_conteudo_principal {
+    grid-area: item_conteudo_principal;
+}
+
+.template-menu {
+    display: grid;
+    grid-template-columns: 59px;
+    grid-template-rows: 53px 1px 20px 56px 13px 56px auto;
+    grid-template-areas:
+        "item_DSI_menu"
+        "item_linha-horizontal_principal"
+        "."
+        "item_componentes_menu"
+        "."
+        "item_sistemas_menu"
+        "."
+    ;
+}
+
+.item_DSI_menu {
+    grid-area: item_DSI_menu;
+    justify-self: center;
+}
+
+.item_componentes_menu {
+    grid-area: item_componentes_menu;
+}
+
+.item_sistemas_menu {
+    grid-area: item_sistemas_menu;
+}

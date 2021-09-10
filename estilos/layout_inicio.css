@@ -1,0 +1,21 @@
+.template-conteudo_inicio {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 36px 64px 65px auto 30px;
+    grid-template-areas:
+        "."
+        "item_titulo_inicio"
+        "."
+        "item_textos_inicio"
+        "."
+    ;
+}
+
+.item_titulo_inicio {
+    grid-area: item_titulo_inicio;
+    justify-self: center;
+}
+
+.item_textos_inicio {
+    grid-area: item_textos_inicio;
+}

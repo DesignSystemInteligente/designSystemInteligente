@@ -1,0 +1,17 @@
+body {
+    font-family: League Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.textos-inicio {
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.espaco_bottom-30 {
+    margin-bottom: 30px;
+}
